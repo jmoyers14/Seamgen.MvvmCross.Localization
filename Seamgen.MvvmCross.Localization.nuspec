@@ -17,7 +17,7 @@
       <!-- PCL -->
       <file src="Seamgen.MvvmCross.Localization/bin/Debug/Seamgen.MvvmCross.Localization.dll" target="lib\portable-win+net45+MonoAndroid16+Xamarin.iOS10+sl40+wp71" />
       <file src="Seamgen.MvvmCross.Localization/StringKey.cs.pp" target="content\portable-win+net45+MonoAndroid16+Xamarin.iOS10+sl40+wp71\StringKey.cs.pp" />
-      <!-- <file src="Seamgen.MvvmCross.Localization/LocalizedStrings.resx.pp" target="content\portable-win+net45+MonoAndroid16+Xamarin.iOS10+sl40+wp71\Resx\LocalizedStrings.resx.pp" /> -->
+      <file src="Seamgen.MvvmCross.Localization/LocalizedStrings.resx.pp" target="content\portable-win+net45+MonoAndroid16+Xamarin.iOS10+sl40+wp71\Resx\LocalizedStrings.resx.pp" />
 
       <!-- touch -->
       <file src="Seamgen.MvvmCross.Localization.Touch/bin/Debug/Seamgen.MvvmCross.Localization.dll" target="lib\Xamarin.iOS10" />
