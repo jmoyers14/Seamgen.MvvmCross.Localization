@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Seamgen.MvvmCross.Localization
+namespace $rootnamespace$
 {
 	public enum StringKey {
 		HELLO,

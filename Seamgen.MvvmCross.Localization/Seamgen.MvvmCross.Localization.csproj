@@ -33,7 +33,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ILocalization.cs" />
     <Compile Include="Localization.cs" />
-    <Compile Include="StringKey.cs" />
     <Compile Include="PluginLoader.cs" />
     <Compile Include="LocalizationConfiguration.cs" />
     <Compile Include="LocalizationSettings.cs" />
@@ -42,6 +41,7 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="StringKey.cs.pp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Cirrious.CrossCore">
