@@ -6,6 +6,7 @@ install:
    - wget "http://download.xamarin.com/MonoTouch/Mac/monotouch-9.4.1.25.pkg"
    - sudo installer -pkg "monotouch-9.4.1.25.pkg" -target /
    - nuget restore Seamgen.MvvmCross.Localization.sln
+   - nuget pack nuspecs/*
 
 
 
