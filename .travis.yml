@@ -3,11 +3,9 @@ solution: Seamgen.MvvmCross.Localization.sln
 os: osx
 
 install:
-   - MONO_VERSION="3.12.0"
-   - wget "http://download.mono-project.com/archive/${MONO_VERSION}/macos-10-x86/MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.x86.pkg"
-   - sudo installer -pkg "MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.x86.pkg" -target /
-   - wget "http://download.xamarin.com/MonoTouch/Mac/monotouch-8.6.0.51.pkg"
-   - sudo installer -pkg "monotouch-8.6.0.51.pkg" -target /
+   - wget "http://download.xamarin.com/MonoTouch/Mac/monotouch-9.4.1.25.pkg"
+   - sudo installer -pkg "monotouch-9.4.1.25.pkg" -target /
+   - nuget restore Seamgen.MvvmCross.Localization.sln
 
 
 
